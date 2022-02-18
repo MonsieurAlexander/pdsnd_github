@@ -7,7 +7,7 @@
 Explore US Bikeshare Data
 
 ### Description
-The project contains a script which enables the user to select a city, month and date of interest to get detailed information about bikesharing from a database regarding the chosen parameters.
+The project contains a script which enables the user to select a city (washington, new york city, chicago), month and date of interest to get detailed information about bikesharing from a database regarding the chosen parameters.
 
 ### Files used
 bikeshare.py
