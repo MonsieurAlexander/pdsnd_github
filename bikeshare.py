@@ -6,8 +6,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-month_check = ['all','january', 'february', 'march', 'april', 'may', 'june']
-day_check = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -61,6 +59,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     print('\nThe days available are: All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday')
     day = None
+    day_check = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     while day not in day_check:
         try:
             day = input('Please choose one of the days mentioned. If you do not want to set a day filter choose All: ').lower()
